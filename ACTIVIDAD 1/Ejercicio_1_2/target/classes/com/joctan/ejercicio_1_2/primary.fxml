@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joctan.ejercicio_1_2.PrimaryController">
+   <children>
+      <HBox prefHeight="0.0" prefWidth="274.0">
+         <children>
+            <Label text="Dinero" />
+            <TextField fx:id="caja" prefHeight="26.0" prefWidth="126.0" promptText="Ingresa un número" />
+            <Button fx:id="BTNcancelar" mnemonicParsing="false" onAction="#cancelar" text="x" />
+            <Button fx:id="desglosar" mnemonicParsing="false" onAction="#mostrar" text="Desglosar" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Billetes de $500" />
+            <Label fx:id="e500" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Billetes de $200" />
+            <Label fx:id="e200" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Billetes de $100" />
+            <Label fx:id="e100" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Billetes de $50" />
+            <Label fx:id="e50" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Billetes de $20" />
+            <Label fx:id="e20" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="5.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="124.0" text="Monedas de $10 " />
+            <Label fx:id="e10" prefHeight="17.0" prefWidth="136.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Monedas de $5" />
+            <Label fx:id="e5" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Monedas de $2" />
+            <Label fx:id="e2" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="274.0">
+         <children>
+            <Label prefHeight="18.0" prefWidth="133.0" text="Monedas de $1" />
+            <Label fx:id="e1" prefHeight="18.0" prefWidth="160.0" text="Cantidad" />
+         </children>
+      </HBox>
+      <HBox prefHeight="19.0" prefWidth="266.0" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
